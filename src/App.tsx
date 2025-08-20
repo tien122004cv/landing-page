@@ -1,3 +1,4 @@
+import AboutUsSection from "./components/AboutUs/AboutUsSection";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
@@ -7,6 +8,7 @@ export default function App() {
     <div className="px-20">
       <Header />
       <Hero />
+      <AboutUsSection />
     </div>
   )
 }
